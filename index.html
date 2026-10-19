@@ -8,10 +8,11 @@
 </head>
 <body>
     <style>
+        /*Para a estilizção do Site, Fonte, Cor de Fundo, Centralização e Animação*/ 
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f0f0f0;
-            min-height: 100vh;
+            min-height: 80vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -24,50 +25,50 @@
         img {
             width: 100px;
             height: 100px;
-            gap: 10px;
-            border-radius: 10px;
-            transition: transform 0.2s;
         }
         img:hover {
-            transform: translateY(-10px); 
+            transform: translateY(-10px); /*Faz o efeito de subida quando passam o mouse*/
         }
         .cubo1, .cubo2, .cubo3, .cubo4, .cubo5 {
             display: inline-block;
             margin: 20px;
-            padding: 10px;
-            transition: transform 0.3s ease-out; /* Controla a animação de subida e descida */
-            background-color: transparent; 
-            border-radius: 8px;
-            cursor: pointer
+            padding: 10px; 
         }
         </style>
+    <!---Deixa o Site centralizado-->
     <div style="text-align: center;">
+    <!---Titulo da Pagina-->
         <h1>Meus Sites Favoritos: Kauan Garcia</h1>
 
+    <!--Sites com classes para Maior modificação-->    
     <div class ="cubo1">
     <h1>YouTube</h1>
     <a href="https://www.youtube.com">
         <img src="imagens/youtube.png" width="100" height="100" alt="YouTube">
     </a> <br>
     </div>
+
     <div class ="cubo2">
     <h1>Chess.com</h1>
     <a href="https://www.chess.com">
         <img src="imagens/chess.png" width="100" height="100" alt="Chess.com">
     </a> <br>
    </div>
+
    <div class ="cubo3">
    <h1>Canva</h1>
     <a href="https://www.canva.com">
         <img src="imagens/canva.png" width="100" height="100" alt="Canva">
     </a>
    </div>
+
    <div class ="cubo4">
      <h1>Github</h1>
     <a href="https://www.github.com">
         <img src="imagens/github.png" width="100" height="100" alt="Github">
     </a> <br>
    </div>
+
    <div class ="cubo5">
     <h1>w3schools</h1>
     <a href="https://www.w3schools.com">
